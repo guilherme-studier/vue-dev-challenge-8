@@ -1,0 +1,66 @@
+:root {
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  /* line-height: 24px; */
+  font-weight: 400;
+
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --dark-900: #181719;
+  --gray-100: #A9A9A9;
+  --gray-200: #828282;
+
+  background-color: var(--white);
+  color: var(--black);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, ul, li, a {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, p {
+  margin-block: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--dark-900);
+}
+
+#app {
+  font-family: 'Montserrat', sans-serif;
+  
+  max-width: 1288px;
+  height: fit-content;
+
+  margin: 0 auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
