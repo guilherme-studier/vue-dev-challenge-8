@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Interior consultant</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://steady-moonbeam-1e4789.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -22,19 +22,11 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
-
 ## Overview
+
+<p align="center">
+  <img alt="Pokedex logo" src="src/assets/screenshot-desktop.png" />
+</p>
 
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
@@ -69,6 +61,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- My portfolio Dev Challenge [guilhermestudier.com](https://devchallenges.io/portfolio/guilherme-studier)
+- GitHub [@guilherme-studier](https://github.com/guilherme-studier/)
+- Linkedin [@guilhermestudier](https://www.linkedin.com/in/guilherme-dos-santos-studier-b65b94195/)
