@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://steady-moonbeam-1e4789.netlify.app/">
+    <a href="https://effulgent-unicorn-5788d0.netlify.app/" />
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/Gy3WSJqehHIsw2k2Kr4D">
+    <a href="https://devchallenges.io/solutions/e6PtuSWPHwb8hQJ5tHWK">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
+    <a href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
       Challenge
     </a>
   </h3>
