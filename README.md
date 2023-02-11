@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Interior consultant</h1>
+<h1 align="center">Edie homepage</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -12,11 +12,11 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/VXmMCMF0crynxkm4tG16">
+    <a href="https://devchallenges.io/solutions/Gy3WSJqehHIsw2k2Kr4D">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
       Challenge
     </a>
   </h3>
@@ -25,7 +25,7 @@
 ## Overview
 
 <p align="center">
-  <img alt="Pokedex logo" src="src/assets/screenshot-desktop.png" />
+  <img alt="Pokedex logo" src="src/assets/screenshot.png" />
 </p>
 
 ### Built With
