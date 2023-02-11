@@ -81,11 +81,13 @@ export default {
     color: var(--gray-600);
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     .depoiment {
+      margin: 0 auto;
+      max-width: 500px;
       padding: 0 14px 0 10px;
       height: 280px;
-    margin-bottom: 103px;
+      margin-bottom: 103px;
     }
 
     .depoiment h1 {

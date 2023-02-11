@@ -180,7 +180,14 @@ export default {
     margin-bottom: 24px;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
+
+    footer .footer {
+      margin: 0 auto;
+      max-width: 500px;
+      padding: 32px 14px 42px 10px;
+      width: 100%;
+    }
 
     footer .footer div {
       width: 100%;

@@ -61,6 +61,7 @@ body {
 section, header {
   max-width: 1288px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 @media (max-width: 700px) {

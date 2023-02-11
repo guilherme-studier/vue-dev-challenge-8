@@ -53,7 +53,11 @@ export default {
     flex-wrap: wrap;
   }
 
-  @media(max-width: 700px) {
+  @media(max-width: 900px) {
+    section {
+      margin: 0 auto;
+      max-width: 500px;
+    }
     .container-services {
       padding: 102px 17px 0 10px;
     }

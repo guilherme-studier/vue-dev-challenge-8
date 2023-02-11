@@ -116,10 +116,11 @@ export default {
     border-radius: 24px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     .team {
-      margin: 100px 0;
-      padding: 0 15.68px 0 10px;
+      margin: 0 auto;
+      max-width: 500px;
+      padding: 100px 15.68px 100px 10px;
     }
 
     .team .team-text {

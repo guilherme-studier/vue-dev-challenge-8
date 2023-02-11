@@ -158,11 +158,13 @@ export default {
   }
 
   /* ==== mobile === */
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     section {
-      margin: 0;
+      margin: 0 auto;
+      max-width: 500px;
+
       width: 100%;
-      padding: 0 17px 0 10px;
+      padding: 48px 17px 0 10px;
     }
     section .container-title {
       max-width: 272px;

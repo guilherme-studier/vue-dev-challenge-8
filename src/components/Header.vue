@@ -237,9 +237,11 @@ export default {
     font-size: 33px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     .container {
-      padding: 10px;
+      margin: 0 auto;
+      max-width: 500px;
+      width: 100%;
     }
   }
 

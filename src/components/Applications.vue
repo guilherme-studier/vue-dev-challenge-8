@@ -135,8 +135,11 @@ export default {
     color: var(--blue-500);
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     .container-applications {
+      margin: 0 auto;
+      max-width: 500px;
+      
       padding: 0 14px 0 10px;
       width: 100%;
     }
