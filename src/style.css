@@ -6,10 +6,18 @@
 
   --white: #FFFFFF;
   --black: #000000;
+  
+  --gray-300: #BDBDBD;
+  --gray-400: #E0E0E0;
+  --gray-500: #F2F2F2;
+  --gray-600: #828282;
+  --gray-700: #4F4F4F;
+  --gray-800: #333333;
+  --gray-900: #100E1D;
 
-  --dark-900: #181719;
-  --gray-100: #A9A9A9;
-  --gray-200: #828282;
+  --green-500: #27AE60;
+  --red-500: #EB5757;
+  --blue-500: #2D9CDB;
 
   background-color: var(--white);
   color: var(--black);
@@ -32,7 +40,6 @@
 h1, h2, h3, h4, p {
   margin-block: 0;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -42,17 +49,18 @@ body {
 
 #app {
   font-family: 'Montserrat', sans-serif;
-  
-  max-width: 1288px;
-  height: 105vh;
 
   margin: 0 auto;
-  padding: 12px;
   display: flex;
   flex-direction: column;
   text-align: center;
 
   overflow: hidden;
+}
+
+section, header {
+  max-width: 1288px;
+  margin: 0 auto;
 }
 
 @media (max-width: 700px) {
@@ -62,6 +70,5 @@ body {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    height: 100vh;
   }
 }

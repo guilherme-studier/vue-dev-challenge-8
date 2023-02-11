@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <header class="container">
     <nav>
-      <h1>This interior</h1>
+      <h1>Edie</h1>
       <div v-show="!mobileView" class="container__nav-menu">
         <ul>
           <li v-for="(link, index) in links" :key="index">
@@ -17,7 +17,7 @@
         class="container__nav-btn-open-mobile"
         :class="[openMenuMobile ? 'container__nav-btn-open-mobile-opened' : '']" 
       >
-        <img src="../assets/icon-hamburger.svg" />
+        <img src="../assets/icon-hamburger.png" />
       </a>
       <div 
         v-show="mobileView" 
@@ -29,7 +29,7 @@
           class="container__nav-btn-close-mobile"
           :class="[openMenuMobile ? 'container__nav-btn-open-mobile-opened' : '']" 
         >
-          <span class="material-symbols-outlined">close</span>
+          <img src="../assets/icon-close-menu.png" />
         </a>
         <ul>
           <li v-for="(link, index) in links" :key="index">
@@ -40,7 +40,7 @@
         </ul>
       </div>
     </nav>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -54,16 +54,16 @@ export default {
           link: '/'
         },
         {
-          name: 'Collection',
-          link: '/collection'
+          name: 'Services',
+          link: '/services'
         },
         {
-          name: 'About',
-          link: '/about'
+          name: 'Our Works',
+          link: '/our-wokrd'
         },
         {
-          name: 'Contact',
-          link: '/contact',
+          name: 'Clients',
+          link: '/clients',
         }
       ],
       mobileView: true,
@@ -87,6 +87,8 @@ export default {
   .container {
     height: 5rem;
     width: 100%;
+    margin-bottom: 104px;
+    
   }
 
   .container nav {
@@ -98,12 +100,12 @@ export default {
   }
 
   .container nav h1 {
-    font-family: 'Crimson Pro', serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: var(--white);
-    border: 1px solid var(--white);
-    padding: 8px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    color: var(--gray-800);
   }
 
   .container__nav-btn-open-mobile {
@@ -136,10 +138,12 @@ export default {
   }
 
   .container nav .container__nav-menu ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 500;
-    color: var(--white);
-    border-bottom: 2px solid transparent;
-    padding-bottom: 8px;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--gray-800);
   }
 
   .container nav .container__nav-menu ul li a .link {
@@ -147,11 +151,11 @@ export default {
   }
 
   .container nav .container__nav-menu ul li a:hover {
-    border-bottom: 2px solid var(--white);
+    border-bottom: 2px solid var(--black);
   }
 
   .container nav .container__nav-menu button {
-    background: var(--white);
+    background: var(--black);
     border: none;
     border-radius: 30px;
     padding: 1rem;
@@ -162,8 +166,8 @@ export default {
   /* mobile */
   .container__nav-menu-mobile {
     display: flex;
-    background: var(--dark-900);
-    color: var(--white);
+    background: var(--white);
+    color: var(--black);
     height: 100%;
     width: 100%;
     position: fixed;
@@ -203,13 +207,13 @@ export default {
 
   .container .container__nav-menu-mobile ul li a {
     font-weight: 500;
-    color: var(--white);
+    color: var(--gray-800);
     border-bottom: 2px solid transparent;
     padding-bottom: 8px;
   }
 
   .container .container__nav-menu-mobile ul li a:hover {
-    border-bottom: 2px solid var(--white);
+    border-bottom: 2px solid var(--black);
   }
 
 
@@ -231,6 +235,12 @@ export default {
   .material-symbols-outlined {
     color: var(--white);
     font-size: 33px;
+  }
+
+  @media (max-width: 700px) {
+    .container {
+      padding: 10px;
+    }
   }
 
 </style>
