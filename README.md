@@ -1,4 +1,4 @@
-<!-- Please update value in the {}  -->
+<!-- Please update value in the { }  -->
 
 <h1 align="center">Portfolio</h1>
 
